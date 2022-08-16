@@ -1,0 +1,23 @@
+{
+  "name": "proyecto-anatomia-de-un-sitio-web",
+  "version": "1.0.0",
+  "description": "Voy a estar creando un proyecto a lo largo del modulo 4 \"Anatomia De Un Sitio Web\" del curso llamado DigitalHouse.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JuampiAcosta/Proyecto-Anatomia-De-Un-Sitio-Web.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JuampiAcosta/Proyecto-Anatomia-De-Un-Sitio-Web/issues"
+  },
+  "homepage": "https://github.com/JuampiAcosta/Proyecto-Anatomia-De-Un-Sitio-Web#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
