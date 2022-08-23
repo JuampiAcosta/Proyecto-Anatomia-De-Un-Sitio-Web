@@ -9,3 +9,10 @@ h2{font-size: 20px;}
 p{font-size: 17px;
 line-height: 24px;
 }
+p strong{background-color: orange;
+color: white;
+font-family: italic;}
+.parrafo-destacado{color:salmon;font-size: 15px; line-height: 38px;}
+strong{color:green}
+.parrafo-destacado em{color: red;
+text-transform: uppercase;}
