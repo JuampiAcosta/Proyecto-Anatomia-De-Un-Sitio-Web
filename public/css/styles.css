@@ -4,25 +4,18 @@ body{
     font-family: 'Lato', sans-serif;
 }
 
-.contenedor01{background-color: salmon;
-max-width: 900px;
+.contenedor01{width: 90%;
 padding: 20px;
-border: solid 5px black;
-margin:auto
-}
-.oculto{display: none;}
+background-color: salmon;}
+.contenedor02{width: 50%;
+    padding: 20px;
+    background-color: #ff0;}
 
-@media (min-width:570px){.contenedor01{background-color:#000000;
-   border: solid 5px salmon;
-   color: #ffffff;
-    }}
-    @media (min-width:900px) {.contenedor01{
-        color: #ff0000;
-          }
-        
-        .oculto{display: block;}    
-         }
 
+    @media (min-width:576px) {
+        .contenedor01,
+        .contenedor02{width:70% ;margin: auto;}
+    }
          /* medidas standard del media query */
        /* 576
        768
