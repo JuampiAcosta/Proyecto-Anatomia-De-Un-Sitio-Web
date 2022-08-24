@@ -1,18 +1,11 @@
+*{box-sizing: border-box;}
+
 body{
     font-family: 'Lato', sans-serif;
 }
-h1{
-font-size: 50px;
-font-weight: 300;
+
+.contenedor01{background-color: salmon;
+width: 90%;
+padding: 20px;
+border: solid 5px black;
 }
-h2{font-size: 20px;}
-p{font-size: 17px;
-line-height: 24px;
-}
-p strong{background-color: orange;
-color: white;
-font-family: italic;}
-.parrafo-destacado{color:salmon;font-size: 15px; line-height: 38px;}
-strong{color:green}
-.parrafo-destacado em{color: red;
-text-transform: uppercase;}
