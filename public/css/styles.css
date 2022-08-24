@@ -3,7 +3,7 @@
 body{
     font-family: 'Lato', sans-serif;
 }
-
+.contenedor01,.contenedor02{padding:20px;}
 .contenedor01{width: 90%;
 padding: 20px;
 background-color: salmon;}
@@ -16,6 +16,30 @@ background-color: salmon;}
         .contenedor01,
         .contenedor02{width:70% ;margin: auto;}
     }
+    @media (min-width:768px) {
+        .contenedor01{
+            background-color: black;
+            color: white;
+        }
+        .contenedor02{ background-color: green;
+            color: red;
+
+    }
+    }
+    @media (min-width:992px) {
+        .contenedor01,          
+        .contenedor02{ border: solid 10px yellow;
+    }
+    }
+    @media (min-width:1200px) {
+        .contenedor01,          
+        .contenedor02{max-width: 1100px;
+    }
+    }
+
+
+
+
          /* medidas standard del media query */
        /* 576
        768
