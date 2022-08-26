@@ -41,5 +41,9 @@ justify-content: space-between;
 .main-navbar{margin-top: 40px;}
 .main-navbar li{margin: 0 10px;}
 .main-navbar a{ font-size: 19px;}
-
+.create-form{padding: 20px 15px;}
  }
+ .control-formulario {margin-bottom: 15px;}
+ .control-formulario label{margin-bottom: 5px;font-style: italic;display: block;}
+.control{width: 100%;padding: 8px;}
+.boton-formulario{background-color: green; border: none; font-size: 20px; color: white; padding: 5px 10px; border-radius: 5px;}
