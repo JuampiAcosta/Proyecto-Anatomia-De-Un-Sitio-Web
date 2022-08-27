@@ -1,7 +1,11 @@
 *{box-sizing: border-box;}
 body{font-family:'Roboto', sans-serif}
 .main-header{background-color: #EAC926;
-  padding: 20px;}
+  padding: 20px;
+position:fixed;
+top:0;
+z-index: 100;  
+}
 .hamburger-button{background-color:#03264C;color: #ffffff;
 display: block;
 max-width: 50px;
@@ -18,6 +22,10 @@ text-align: center;
 .main-navbar{display:none;}
 .main-navbar ul{list-style: none; margin: 0;padding: 0;}
 .main-navbar a{text-decoration: none;color: #222222;display: inline-block; padding: 5px 0 ;}
+.product{ padding: 0 15px;position: relative;}
+.product img{width: 100%;}
+.product :hover{  border-radius: 50%; opacity: 1;background-color: rgba(255,0, 0, 0.5);}
+.product h2{ width:100%; background-color: black; color: white;margin: 0;padding: 15px; position: absolute; left: 0;bottom:0; width: 100%;height: 100%;display: flex;justify-content: center;align-items: center;opacity:0 ;transition: all 450ms;}
 @media(min-width:768px){
 .main-header-top-bar{
 display: flex;
@@ -41,8 +49,8 @@ justify-content: space-between;
 .main-navbar{margin-top: 40px;}
 .main-navbar li{margin: 0 10px;}
 .main-navbar a{ font-size: 19px;}
-.create-form{padding: 20px 15px;}
- }
+.create-form{padding: 20px 15px; margin-top:240px;}
+ }.create-form{padding: 20px 15px; margin-top:240px;}
  .control-formulario {margin-bottom: 15px;}
  .control-formulario label{margin-bottom: 5px;font-style: italic;display: block;}
 .control{width: 100%;padding: 8px;}
